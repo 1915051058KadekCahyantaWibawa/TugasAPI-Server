@@ -1,0 +1,20 @@
+# Fungsi retrieve data ke database
+GET http://localhost:8000/
+
+###
+POST http://localhost:8000/
+Content-Type: application/x-www-form-urlencoded
+
+&judul=Bermain
+&isi=Hari saya bermain kelereng
+
+###
+PATCH http://localhost:8000/3
+Content-Type: application/x-www-form-urlencoded
+
+&judul=Hari ini saya bikin rujak
+&isi=Hari ini saya bikin rujak di kampung
+
+###
+DELETE http://localhost:8000/2
+Content-Type: application/x-www-form-urlencoded
